@@ -1,0 +1,303 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: BTTF;
+	src: url("Assets/BTTF.ttf")
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url("Assets/Montserrat-Regular.ttf");
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url("Assets/Montserrat-BlackItalic.ttf");
+	font-weight: 600;
+}
+
+html {
+	background-color: #010101;
+	scroll-behavior: smooth;
+	min-width: 650px;
+}
+
+body {
+	color: white;
+	font-family: Montserrat; 
+	font-weight: 100;
+	margin: 0px;
+	padding-right: 0px;;
+}
+
+.logo {
+	padding-top: 12px;
+	float: left;
+	
+}
+
+.logo a {
+	font-size: 24px;
+	font-family: BTTF;	
+	color: white;
+	text-decoration: none;
+}
+
+
+.barra {
+	padding-top: 1px;
+	text-align: right;
+}
+
+nav {
+	margin-top: 38px;
+	margin-right: 40px;
+	margin-left: 50px;
+}
+
+ nav ul {
+    list-style: none;
+ }
+
+nav ul li {
+  display: inline-block;
+  font-size: 16px;
+	
+ } 
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	margin-right: 30px;	
+} 
+
+main {
+	padding-top: 0px;
+	padding-right: 0px;
+	
+}
+
+.home {
+	width: 100%;
+}
+
+.imagem-fundo {
+	position: relative;
+    z-index: 0;
+}
+.scroll {
+    position: absolute;
+    display: block;
+    margin-left: 49%;
+    margin-right: 50%;
+	margin-top: -20%;
+    z-index: 1;
+}
+
+.video {
+	background-color: #0D0D0D;
+	padding-top: 5rem;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-bottom: 0px;
+}
+
+.texto-video {
+	width: 66%;
+	display: inline-block;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.texto-video h2 {
+	font-family: BTTF;
+	text-align: center;
+	
+}
+
+.texto-video p {
+	text-align: center;
+	
+}
+
+.texto-video video {
+	padding-left: 15%;
+	padding-right: 15%;
+	width: 75%;
+	padding-bottom: 7%;
+	
+}
+
+.marcos {
+	display: inline-block;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-bottom: 0px;
+	width: 33%;
+	
+}
+.marcos img {
+	width: 90%;	
+	padding-bottom: 0px;
+	padding: 0px;
+	
+}
+
+.separador1 {
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #C22B07;
+	margin: -4px 0px 0px 0px;
+}
+
+.pre-venda{
+	padding-top: 8rem;
+	padding-left: 2rem;
+	padding-right: 5rem;
+	margin-bottom: 0rem;
+}
+
+.doutor {
+	display: inline-block;
+	padding-bottom: 0px;
+	width: 33%;
+	
+}
+.doutor img {
+	width: 90%;	
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
+	margin-bottom: 0px;
+}
+
+.texto-venda {
+	text-align: center;
+	float: right;
+	width: 66%;
+	display: inline-block;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.texto-venda h2 {
+	font-family: Montserrat;
+	font-size: 2rem;
+	
+}
+
+.preco {
+	display: inline-block;
+	font-family: Montserrat;
+	font-weight: 100;
+	margin-bottom: 0px;
+}
+
+.desconto {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #C22B07;
+	border-radius: 10px;
+	margin-bottom: 0px;
+}
+
+.final {
+	font-size: 3rem;
+	display: block;
+	margin: 0px;
+
+}
+
+.texto-venda video {
+	padding-left: 15%;
+	padding-right: 15%;
+	width: 75%;
+	padding-bottom: 7%;
+	
+}
+
+.carrinho {
+	width: 10%;
+	display: inline-block;
+}
+.myButton {
+	box-shadow: -3px 3px 0px 0px #c22b07;
+	background:linear-gradient(to bottom, white 5%, #e6e6e6 100%);
+	background-color: white;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color: #770909;
+	font-family:Montserrat;
+	font-weight: 600;
+	font-size:32px;
+	padding:8px 25px;
+	text-decoration:none;
+	text-align: center;
+	margin: 20px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+	color: white;
+	box-shadow: -3px 3px 0px 0px white;
+
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.texto-venda p {
+	
+}
+
+.separador2 {
+	display: inline-block;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #F5F5F5;
+	margin-top: -3px;
+}
+
+.galeria {
+	padding: 30px 50px 80px 50px;
+	background-color: #1A1A1A
+}
+
+.sobre {
+	padding: 100px 50px 10px 50px;
+	background-color: #1A1A1A
+}
+
+.texto-sobre img {
+	width: 25%;
+	padding-left: 36%;
+	padding-right: 36%;
+}
+
+.texto-sobre p {
+	text-align: center;
+	padding: 50px 100px 10px 100px;
+}
+
+footer {
+	background-color: #343434;
+	padding: 80px 150px;
+}
+
+footer img {
+	display: inline-block;
+	width: 15%;
+	padding-left: 10%;
+	padding-top: 10px;
+}
+footer p {
+	display: inline-block;
+	width: 50%;
+	padding-left: 10%;
+	text-align: left;
+}
